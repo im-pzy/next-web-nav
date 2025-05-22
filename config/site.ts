@@ -1,11 +1,10 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "前端导航",
-  description: "基于 Next.js 的前端导航网站",
+  name: "其名为碰的软件口袋",
+  description: "发现好用的高效软件",
   mainNav: [],
   links: {
-    twitter: "https://twitter.com/liwenka1",
     github: "https://github.com/liwenka1/next-web-nav"
   }
 }
@@ -31,65 +30,41 @@ export const NavData: NavData[] = [
     title: "常用工具",
     items: [
       {
-        icon: "https://caniuse.com/img/favicon-128.png",
-        title: "Can I use",
-        desc: "前端 API 兼容性查询",
-        link: "https://caniuse.com"
-      },
-      {
-        icon: "https://tinypng.com/images/apple-touch-icon.png",
-        title: "TinyPNG",
-        desc: "在线图片压缩工具",
-        link: "https://tinypng.com"
-      },
-      {
-        icon: "https://tool.lu/favicon.ico",
-        title: "在线工具",
-        desc: "开发人员的工具箱",
-        link: "https://tool.lu"
-      },
-      {
-        icon: "https://processon.com/favicon.ico",
-        title: "ProcessOn",
-        desc: "免费在线流程图思维导图",
-        link: "https://processon.com/"
-      },
-      {
-        icon: "/icons/json-cn.ico",
-        title: "Json 中文网",
-        desc: "JSON 在线解析及格式化验证",
-        link: "https://www.json.cn"
-      },
-      {
-        icon: "https://www.terminalgif.com/favicon.ico",
-        title: "Terminal Gif Maker",
-        desc: "在线生成 Terminal GIF",
-        link: "https://www.terminalgif.com"
-      },
-      {
-        icon: "https://astexplorer.net/favicon.png",
-        title: "AST Explorer",
-        desc: "一个 Web 工具，用于探索由各种解析器生成的 AST 语法树",
-        link: "https://astexplorer.net/"
-      },
-      {
-        icon: "https://transform.tools/static/favicon.png",
-        title: "transform",
-        desc: "各类数据格式与对象转换",
-        link: "https://transform.tools"
-      },
-      {
-        icon: "/icons/hoppscotch.png",
-        title: "Hoppscotch",
-        desc: "开源 API 开发生态系统",
-        link: "https://hoppscotch.io/"
-      },
-      {
-        icon: "/icons/apifox.png",
-        title: "Apifox",
-        desc: "API 文档、API 调试、API Mock、API 自动化测试",
-        link: "https://www.apifox.cn/"
-      }
+  title: "PasteEx",
+  icon: "https://cdn.pzyer.com/softwareImg/PasteEx.ico",
+  link: "https://github.com/huiyadanli/pasteex",
+  desc: "将剪切板内容直接粘贴为文件"
+},
+{
+  title: "Clipdiary",
+  icon: "http://clipdiary.com/favicon.ico",
+  link: "http://clipdiary.com/",
+  desc: "剪切板历史记录工具"
+},
+{
+  title: "Quicker",
+  icon: "https://getquicker.net/quicker_square.png",
+  link: "https://getquicker.net/",
+  desc: "指尖工具箱"
+},
+{
+  title: "Beyond Compare",
+  icon: "https://www.scootersoftware.com/bc_icon.png",
+  link: "https://www.scootersoftware.com/",
+  desc: "文件(夹)内容比较"
+},
+{
+  title: "Everything",
+  icon: "https://www.voidtools.com/favicon.ico",
+  link: "https://www.voidtools.com/zh-cn/",
+  desc: "文件秒搜神器"
+},
+{
+  title: "QuickLook",
+  icon: "https://user-images.githubusercontent.com/1687847/82130498-8c3eac80-97d4-11ea-9e88-372ab9c50295.png",
+  link: "https://github.com/QL-Win/QuickLook/releases/",
+  desc: "空格键一键预览文件"
+}
     ]
   },
 
