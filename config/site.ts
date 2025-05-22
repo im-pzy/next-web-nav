@@ -29,42 +29,42 @@ export const NavData: NavData[] = [
   {
     title: "常用工具",
     items: [
-      {
-  title: "PasteEx",
-  icon: "https://cdn.pzyer.com/softwareImg/PasteEx.ico",
-  link: "https://github.com/huiyadanli/pasteex",
-  desc: "将剪切板内容直接粘贴为文件"
-},
-{
-  title: "Clipdiary",
-  icon: "http://clipdiary.com/favicon.ico",
-  link: "http://clipdiary.com/",
-  desc: "剪切板历史记录工具"
-},
-{
-  title: "Quicker",
-  icon: "https://getquicker.net/quicker_square.png",
-  link: "https://getquicker.net/",
-  desc: "指尖工具箱"
-},
-{
-  title: "Beyond Compare",
-  icon: "https://www.scootersoftware.com/bc_icon.png",
-  link: "https://www.scootersoftware.com/",
-  desc: "文件(夹)内容比较"
-},
-{
-  title: "Everything",
-  icon: "https://www.voidtools.com/favicon.ico",
-  link: "https://www.voidtools.com/zh-cn/",
-  desc: "文件秒搜神器"
-},
-{
-  title: "QuickLook",
-  icon: "https://user-images.githubusercontent.com/1687847/82130498-8c3eac80-97d4-11ea-9e88-372ab9c50295.png",
-  link: "https://github.com/QL-Win/QuickLook/releases/",
-  desc: "空格键一键预览文件"
-}
+			{
+			  title: "PasteEx",
+			  icon: "https://cdn.pzyer.com/softwareImg/PasteEx.ico",
+			  link: "https://github.com/huiyadanli/pasteex",
+			  desc: "将剪切板内容直接粘贴为文件"
+			},
+			{
+			  title: "Clipdiary",
+			  icon: "http://clipdiary.com/favicon.ico",
+			  link: "http://clipdiary.com/",
+			  desc: "剪切板历史记录工具"
+			},
+			{
+			  title: "Quicker",
+			  icon: "https://getquicker.net/quicker_square.png",
+			  link: "https://getquicker.net/",
+			  desc: "指尖工具箱"
+			},
+			{
+			  title: "Beyond Compare",
+			  icon: "https://www.scootersoftware.com/bc_icon.png",
+			  link: "https://www.scootersoftware.com/",
+			  desc: "文件(夹)内容比较"
+			},
+			{
+			  title: "Everything",
+			  icon: "https://www.voidtools.com/favicon.ico",
+			  link: "https://www.voidtools.com/zh-cn/",
+			  desc: "文件秒搜神器"
+			},
+			{
+			  title: "QuickLook",
+			  icon: "https://user-images.githubusercontent.com/1687847/82130498-8c3eac80-97d4-11ea-9e88-372ab9c50295.png",
+			  link: "https://github.com/QL-Win/QuickLook/releases/",
+			  desc: "空格键一键预览文件"
+			}
     ]
   },
 
