@@ -5,7 +5,7 @@ export const siteConfig = {
   description: "发现好用的高效软件",
   mainNav: [],
   links: {
-	  twitter: "https://twitter.com/liwenka1",
+    twitter: "https://twitter.com/liwenka1",
     github: "https://github.com/liwenka1/next-web-nav"
   }
 }
